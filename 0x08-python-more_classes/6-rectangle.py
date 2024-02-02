@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 The module is composed by a class that defines a Rectangle
 """
@@ -98,9 +97,7 @@ class Rectangle:
         Returns:
         string represenation of the object
         """
-
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
-
 
     def __del__(self):
         """ Method that prints a message when the instance is deleted"""
